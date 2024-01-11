@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree'
+gem 'spree'
 
 group :test do
   gem 'timecop', '~> 0.8.1'
