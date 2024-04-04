@@ -1,5 +1,5 @@
 module Spree
-  module CheckoutController
+  class CheckoutController
   
     before_action :load_gift_card, :add_gift_card_payments, only: [:update], if: :payment_via_gift_card?
     before_action :remove_gift_card_payments, only: [:update]
