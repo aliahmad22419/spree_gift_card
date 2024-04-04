@@ -44,5 +44,5 @@ module Spree
   end
 end
 
-::Spree::CheckoutController.prepend Spree::ClassificationsControllerDecorator
+::Spree::CheckoutController.prepend Spree::CheckoutControllerDecorator
 
